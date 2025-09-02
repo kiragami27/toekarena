@@ -1,0 +1,30 @@
+# Web (Next.js)
+web/node_modules/
+web/.next/
+web/out/
+web/.vercel/
+web/.env
+web/.env.local
+web/.env.*.local
+web/npm-debug.log*
+web/pnpm-debug.log*
+
+# API (FastAPI / Python)
+api/__pycache__/
+api/.pytest_cache/
+api/.venv/
+api/venv/
+api/env/
+api/*.pyc
+api/*.pyo
+api/*.pyd
+api/.env
+api/.env.local
+api/*.log
+
+# General
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.orig

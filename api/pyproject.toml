@@ -1,0 +1,23 @@
+[project]
+name = "toekarena-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kiragami27", email = "77005569+kiragami27@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "psycopg[binary]>=3.2.9",
+    "python-dotenv>=1.1.1",
+    "supabase>=2.18.1",
+    "uvicorn[standard]>=0.35.0",
+]
+
+[project.scripts]
+toekarena-api = "toekarena_api:main"
+
+[build-system]
+requires = ["uv_build>=0.8.14,<0.9.0"]
+build-backend = "uv_build"
